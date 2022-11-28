@@ -125,12 +125,12 @@ def main():
     plt.title('test_accury_emotion')
     plt.plot(all_test_epoch_accuracy_emotion)
     plt.xlabel('epoch')
-    plt.savefig(opt.save_root+'/test_accury_emotion.png')
+    plt.savefig(opt.save_root+'/test_accuracy_emotion.png')
 
     plt.figure()
     plt.title('test_accury_sex')
     plt.plot(all_test_epoch_accuracy_sex)
     plt.xlabel('epoch')
-    plt.savefig(opt.save_root + '/test_accury_sex.png')
+    plt.savefig(opt.save_root + '/test_accuracy_sex.png')
 if __name__ == '__main__':
     main()
